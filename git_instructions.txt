@@ -1,0 +1,77 @@
+git init
+
+git add <file>
+
+git status
+
+git commit
+
+git push
+
+git pull
+
+git clone 
+
+
+
+Additional commands:
+
+For creating new file in git bash
+touch index.html
+touch app.js
+
+
+git init 
+it will create one hidden git folder 
+
+git config --global user.name 'Denash Shaw'
+
+git config --global user.email 'denashshaw@gmail.com'
+
+git add index.html
+
+git status
+
+git rm --cached <filename> with extension
+
+git add . 	=> For including all files
+
+git status
+
+git commit => will open insert mode uncomment init and esc 
+then for exit type :wq
+
+Direct commit
+git commit -m 'Type your message here <filename>'
+
+For ignoring any folder we can add that folder in .gitignore
+
+/foldername
+
+
+
+We can create our branch by using this command
+git branch login
+
+We can change our branch by using this command
+git checkout login
+
+Merging our code from another branch
+git merge login
+Now all are changes are merged
+
+=> for login and moving all files to github
+git push -u origin master
+
+git push	=> to push all the files to server
+
+
+touch index.js
+
+git add .
+
+git commit -m 'comments'
+
+git status
+
+git push
